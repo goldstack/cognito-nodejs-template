@@ -1,0 +1,21 @@
+{
+  "$schema": "./schemas/package.schema.json",
+  "name": "user-management-1",
+  "template": "user-management",
+  "templateVersion": "0.1.0",
+  "configuration": {},
+  "deployments": [
+    {
+      "name": "prod",
+      "awsUser": "goldstack-dev",
+      "awsRegion": "us-west-2",
+      "configuration": {
+        "cognitoDomain": "auth-integration-1671930669688.dev.goldstack.party",
+        "userPoolName": "integration-pool-1671930669688",
+        "hostedZoneDomain": "dev.goldstack.party",
+        "callbackUrl": "https://ssr.examples.templates.dev.goldstack.party"
+      },
+      "tfStateKey": "user-management-1-prod-f626d8a4c5058a5a94b5.tfstate"
+    }
+  ]
+}
