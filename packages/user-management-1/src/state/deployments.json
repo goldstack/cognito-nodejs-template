@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "name": "prod",
+    "terraform": {
+      "endpoint": {
+        "sensitive": false,
+        "type": "string",
+        "value": "cognito-idp.us-west-2.amazonaws.com/us-west-2_NMAyUY189"
+      },
+      "user_pool_client_id": {
+        "sensitive": false,
+        "type": "string",
+        "value": "46eoekba5ch88of1buq7jh4cg4"
+      },
+      "user_pool_id": {
+        "sensitive": false,
+        "type": "string",
+        "value": "us-west-2_NMAyUY189"
+      }
+    }
+  }
+]
