@@ -1098,10 +1098,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-user-management", [\
-        ["npm:0.1.4", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-user-management-npm-0.1.4-4a3aa42a34-bd105a799e.zip/node_modules/@goldstack/template-user-management/",\
+        ["npm:0.1.5", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-user-management-npm-0.1.5-6322e6ba0c-f0dd979130.zip/node_modules/@goldstack/template-user-management/",\
           "packageDependencies": [\
-            ["@goldstack/template-user-management", "npm:0.1.4"],\
+            ["@goldstack/template-user-management", "npm:0.1.5"],\
             ["@goldstack/infra", "npm:0.4.4"],\
             ["@goldstack/infra-aws", "npm:0.4.7"],\
             ["@goldstack/utils-esbuild", "npm:0.5.4"],\
@@ -1117,11 +1117,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-user-management-cli", [\
-        ["npm:0.1.4", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-user-management-cli-npm-0.1.4-4c418a748b-4f1dc41bb6.zip/node_modules/@goldstack/template-user-management-cli/",\
+        ["npm:0.1.5", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-user-management-cli-npm-0.1.5-e89427cd8c-1252456de0.zip/node_modules/@goldstack/template-user-management-cli/",\
           "packageDependencies": [\
-            ["@goldstack/template-user-management-cli", "npm:0.1.4"],\
-            ["@goldstack/template-user-management", "npm:0.1.4"],\
+            ["@goldstack/template-user-management-cli", "npm:0.1.5"],\
+            ["@goldstack/template-user-management", "npm:0.1.5"],\
             ["@goldstack/utils-cli", "npm:0.3.4"],\
             ["@goldstack/utils-docker", "npm:0.4.4"],\
             ["@goldstack/utils-log", "npm:0.3.4"],\
@@ -8470,8 +8470,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/user-management-1/",\
           "packageDependencies": [\
             ["user-management-1", "workspace:packages/user-management-1"],\
-            ["@goldstack/template-user-management", "npm:0.1.4"],\
-            ["@goldstack/template-user-management-cli", "npm:0.1.4"],\
+            ["@goldstack/template-user-management", "npm:0.1.5"],\
+            ["@goldstack/template-user-management-cli", "npm:0.1.5"],\
             ["@types/jest", "npm:29.0.1"],\
             ["@types/node", "npm:18.7.13"],\
             ["aws-sdk", "npm:2.1222.0"],\

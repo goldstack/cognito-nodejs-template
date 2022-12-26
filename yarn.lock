@@ -682,11 +682,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-user-management-cli@npm:0.1.4":
-  version: 0.1.4
-  resolution: "@goldstack/template-user-management-cli@npm:0.1.4"
+"@goldstack/template-user-management-cli@npm:0.1.5":
+  version: 0.1.5
+  resolution: "@goldstack/template-user-management-cli@npm:0.1.5"
   dependencies:
-    "@goldstack/template-user-management": 0.1.4
+    "@goldstack/template-user-management": 0.1.5
     "@goldstack/utils-cli": 0.3.4
     "@goldstack/utils-docker": 0.4.4
     "@goldstack/utils-log": 0.3.4
@@ -702,13 +702,13 @@ __metadata:
   bin:
     template: ./bin/template
     template-user-management: ./bin/template
-  checksum: 4f1dc41bb696f117999614f53dc1d89c8a6c7f228b6ec2664c7d0929b2d4b13a7230951f15b9f205a9377a630e18358a4ace43c84d2586f9b09af9e300b3c802
+  checksum: 1252456de095a2dfabce62da00e4e15b607cef24fd8df146dc06d8fcbe7657c9ee7b116f0d72cd59995b48d4782d35acf5f83aa5ea4c28792be2113db249acbf
   languageName: node
   linkType: hard
 
-"@goldstack/template-user-management@npm:0.1.4":
-  version: 0.1.4
-  resolution: "@goldstack/template-user-management@npm:0.1.4"
+"@goldstack/template-user-management@npm:0.1.5":
+  version: 0.1.5
+  resolution: "@goldstack/template-user-management@npm:0.1.5"
   dependencies:
     "@goldstack/infra": 0.4.4
     "@goldstack/infra-aws": 0.4.7
@@ -720,7 +720,7 @@ __metadata:
     aws-jwt-verify: ^3.2.0
     aws-sdk: ^2.1222.0
     source-map-support: ^0.5.21
-  checksum: bd105a799ea24dcc0453115343eca33bccff9af4cc875ccc3d4287b708cffe13d220bb6adbffab737341cc97257ae04bf9fd405e1db6c3a7d8bcff6cdc6d1f18
+  checksum: f0dd979130196c0451fec2bbcc50344c7ea8e3798d62b744f5f6c82364fc234954336a8a7e8e96c55c76694430d35ba23de5ca26719b7b1ab9075cc7ad484907
   languageName: node
   linkType: hard
 
@@ -7145,8 +7145,8 @@ resolve@^1.20.0:
   version: 0.0.0-use.local
   resolution: "user-management-1@workspace:packages/user-management-1"
   dependencies:
-    "@goldstack/template-user-management": 0.1.4
-    "@goldstack/template-user-management-cli": 0.1.4
+    "@goldstack/template-user-management": 0.1.5
+    "@goldstack/template-user-management-cli": 0.1.5
     "@types/jest": ^29.0.1
     "@types/node": ^18.7.13
     aws-sdk: ^2.1222.0
