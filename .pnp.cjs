@@ -1128,17 +1128,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-user-management", [\
-        ["npm:0.1.8", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-user-management-npm-0.1.8-838f448032-d6010824bd.zip/node_modules/@goldstack/template-user-management/",\
+        ["npm:0.1.9", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-user-management-npm-0.1.9-a68dcd2399-43afdea12d.zip/node_modules/@goldstack/template-user-management/",\
           "packageDependencies": [\
-            ["@goldstack/template-user-management", "npm:0.1.8"],\
+            ["@goldstack/template-user-management", "npm:0.1.9"],\
             ["@goldstack/infra", "npm:0.4.7"],\
             ["@goldstack/infra-aws", "npm:0.4.10"],\
             ["@goldstack/utils-esbuild", "npm:0.5.7"],\
             ["@goldstack/utils-package", "npm:0.4.7"],\
             ["@goldstack/utils-package-config-embedded", "npm:0.5.8"],\
             ["@goldstack/utils-template", "npm:0.4.7"],\
-            ["@goldstack/utils-terraform", "npm:0.4.10"],\
+            ["@goldstack/utils-terraform", "npm:0.4.11"],\
             ["aws-jwt-verify", "npm:3.2.0"],\
             ["aws-sdk", "npm:2.1222.0"],\
             ["source-map-support", "npm:0.5.21"]\
@@ -1147,11 +1147,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-user-management-cli", [\
-        ["npm:0.1.8", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-user-management-cli-npm-0.1.8-84885fa9e0-cc76dbebee.zip/node_modules/@goldstack/template-user-management-cli/",\
+        ["npm:0.1.9", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-user-management-cli-npm-0.1.9-85ac809f28-af4d659b3a.zip/node_modules/@goldstack/template-user-management-cli/",\
           "packageDependencies": [\
-            ["@goldstack/template-user-management-cli", "npm:0.1.8"],\
-            ["@goldstack/template-user-management", "npm:0.1.8"],\
+            ["@goldstack/template-user-management-cli", "npm:0.1.9"],\
+            ["@goldstack/template-user-management", "npm:0.1.9"],\
             ["@goldstack/utils-cli", "npm:0.3.7"],\
             ["@goldstack/utils-docker", "npm:0.4.7"],\
             ["@goldstack/utils-log", "npm:0.3.7"],\
@@ -1159,8 +1159,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@goldstack/utils-package-config", "npm:0.4.7"],\
             ["@goldstack/utils-sh", "npm:0.5.7"],\
             ["@goldstack/utils-template", "npm:0.4.7"],\
-            ["@goldstack/utils-terraform", "npm:0.4.10"],\
-            ["@goldstack/utils-terraform-aws", "npm:0.4.10"],\
+            ["@goldstack/utils-terraform", "npm:0.4.11"],\
+            ["@goldstack/utils-terraform-aws", "npm:0.4.11"],\
             ["aws-sdk", "npm:2.1222.0"],\
             ["source-map-support", "npm:0.5.21"],\
             ["yargs", "npm:17.5.1"]\
@@ -1285,10 +1285,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/utils-terraform", [\
-        ["npm:0.4.10", {\
-          "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.10-7f18577f7c-04b7723928.zip/node_modules/@goldstack/utils-terraform/",\
+        ["npm:0.4.11", {\
+          "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.11-180a18aad6-edddd639b3.zip/node_modules/@goldstack/utils-terraform/",\
           "packageDependencies": [\
-            ["@goldstack/utils-terraform", "npm:0.4.10"],\
+            ["@goldstack/utils-terraform", "npm:0.4.11"],\
             ["@goldstack/infra", "npm:0.4.7"],\
             ["@goldstack/infra-aws", "npm:0.4.10"],\
             ["@goldstack/utils-config", "npm:0.4.7"],\
@@ -1297,23 +1297,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@goldstack/utils-package", "npm:0.4.7"],\
             ["@goldstack/utils-sh", "npm:0.5.7"],\
             ["json-stable-stringify", "npm:1.0.1"],\
-            ["prompt-sync", "npm:4.2.0"],\
             ["yargs", "npm:17.5.1"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@goldstack/utils-terraform-aws", [\
-        ["npm:0.4.10", {\
-          "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.10-ca0198071d-94e658fd60.zip/node_modules/@goldstack/utils-terraform-aws/",\
+        ["npm:0.4.11", {\
+          "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.11-a717cf6ecb-6d0a6d54ef.zip/node_modules/@goldstack/utils-terraform-aws/",\
           "packageDependencies": [\
-            ["@goldstack/utils-terraform-aws", "npm:0.4.10"],\
+            ["@goldstack/utils-terraform-aws", "npm:0.4.11"],\
             ["@goldstack/infra-aws", "npm:0.4.10"],\
             ["@goldstack/utils-config", "npm:0.4.7"],\
             ["@goldstack/utils-log", "npm:0.3.7"],\
             ["@goldstack/utils-package", "npm:0.4.7"],\
             ["@goldstack/utils-sh", "npm:0.5.7"],\
-            ["@goldstack/utils-terraform", "npm:0.4.10"],\
+            ["@goldstack/utils-terraform", "npm:0.4.11"],\
             ["aws-sdk", "npm:2.1222.0"]\
           ],\
           "linkType": "HARD"\
@@ -2424,13 +2423,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["ansi-regex", [\
-        ["npm:4.1.1", {\
-          "packageLocation": "./.yarn/cache/ansi-regex-npm-4.1.1-af0a582bb9-b1a6ee44cb.zip/node_modules/ansi-regex/",\
-          "packageDependencies": [\
-            ["ansi-regex", "npm:4.1.1"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:5.0.0", {\
           "packageLocation": "./.yarn/cache/ansi-regex-npm-5.0.0-9c076068d9-b1bb4e992a.zip/node_modules/ansi-regex/",\
           "packageDependencies": [\
@@ -7297,16 +7289,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["prompt-sync", [\
-        ["npm:4.2.0", {\
-          "packageLocation": "./.yarn/cache/prompt-sync-npm-4.2.0-1ce4e10166-b14dfb7d25.zip/node_modules/prompt-sync/",\
-          "packageDependencies": [\
-            ["prompt-sync", "npm:4.2.0"],\
-            ["strip-ansi", "npm:5.2.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["prompts", [\
         ["npm:2.3.2", {\
           "packageLocation": "./.yarn/cache/prompts-npm-2.3.2-c8c33bdfcf-b1f9e92b59.zip/node_modules/prompts/",\
@@ -7999,14 +7981,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["strip-ansi", [\
-        ["npm:5.2.0", {\
-          "packageLocation": "./.yarn/cache/strip-ansi-npm-5.2.0-275214c316-bdb5f76ade.zip/node_modules/strip-ansi/",\
-          "packageDependencies": [\
-            ["strip-ansi", "npm:5.2.0"],\
-            ["ansi-regex", "npm:4.1.1"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:6.0.0", {\
           "packageLocation": "./.yarn/cache/strip-ansi-npm-6.0.0-904613e9eb-04c3239ede.zip/node_modules/strip-ansi/",\
           "packageDependencies": [\
@@ -8474,8 +8448,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/user-management-1/",\
           "packageDependencies": [\
             ["user-management-1", "workspace:packages/user-management-1"],\
-            ["@goldstack/template-user-management", "npm:0.1.8"],\
-            ["@goldstack/template-user-management-cli", "npm:0.1.8"],\
+            ["@goldstack/template-user-management", "npm:0.1.9"],\
+            ["@goldstack/template-user-management-cli", "npm:0.1.9"],\
             ["@types/jest", "npm:29.0.1"],\
             ["@types/node", "npm:18.7.13"],\
             ["aws-sdk", "npm:2.1222.0"],\
