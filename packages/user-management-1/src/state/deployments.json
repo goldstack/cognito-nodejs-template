@@ -5,17 +5,17 @@
       "endpoint": {
         "sensitive": false,
         "type": "string",
-        "value": "cognito-idp.us-west-2.amazonaws.com/us-west-2_nI1tpSaDL"
+        "value": "cognito-idp.us-west-2.amazonaws.com/us-west-2_YB4kmhMga"
       },
       "user_pool_client_id": {
         "sensitive": false,
         "type": "string",
-        "value": "287imfbb8seo5129sfcgkvo7ib"
+        "value": "23lc32tcgqb6gq3n5667n916qi"
       },
       "user_pool_id": {
         "sensitive": false,
         "type": "string",
-        "value": "us-west-2_nI1tpSaDL"
+        "value": "us-west-2_YB4kmhMga"
       }
     }
   }
