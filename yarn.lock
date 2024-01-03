@@ -1332,9 +1332,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-user-management-cli@npm:0.1.13":
-  version: 0.1.13
-  resolution: "@goldstack/template-user-management-cli@npm:0.1.13"
+"@goldstack/template-user-management-cli@npm:0.1.14":
+  version: 0.1.14
+  resolution: "@goldstack/template-user-management-cli@npm:0.1.14"
   dependencies:
     "@goldstack/template-user-management": "npm:0.1.13"
     "@goldstack/utils-cli": "npm:0.3.9"
@@ -1345,14 +1345,14 @@ __metadata:
     "@goldstack/utils-sh": "npm:0.5.9"
     "@goldstack/utils-template": "npm:0.4.9"
     "@goldstack/utils-terraform": "npm:0.4.15"
-    "@goldstack/utils-terraform-aws": "npm:0.4.15"
+    "@goldstack/utils-terraform-aws": "npm:0.4.16"
     aws-sdk: "npm:2.1525.0"
     source-map-support: "npm:^0.5.21"
     yargs: "npm:^17.5.1"
   bin:
     template: ./bin/template
     template-user-management: ./bin/template
-  checksum: 2e3cf162ce22ae50d4916b690be5f10e39be07bf77a549bfac1862c9cbbe56bf5a7cbae151794571c3772ecd8c0f4d1f94138c895dc668c50c4409492c81c9dc
+  checksum: a54f90bd6a5ee0ae6215f89a206ca3cb5d16156a0f8fecf68a22d1516b5c570d3e70fe35f246b0adaf04cfda576a7585a07ffe4c152eba1cf3fe3cb2c0ffdd7e
   languageName: node
   linkType: hard
 
@@ -1477,9 +1477,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-terraform-aws@npm:0.4.15":
-  version: 0.4.15
-  resolution: "@goldstack/utils-terraform-aws@npm:0.4.15"
+"@goldstack/utils-terraform-aws@npm:0.4.16":
+  version: 0.4.16
+  resolution: "@goldstack/utils-terraform-aws@npm:0.4.16"
   dependencies:
     "@aws-sdk/types": "npm:^3.468.0"
     "@goldstack/infra-aws": "npm:0.4.14"
@@ -1489,7 +1489,7 @@ __metadata:
     "@goldstack/utils-sh": "npm:0.5.9"
     "@goldstack/utils-terraform": "npm:0.4.15"
     aws-sdk: "npm:2.1525.0"
-  checksum: 64fc1a9ae4fd9bce7a4a45c92aac1cc022bea49aa22e9b29f50d145ee09b30e59598225248ad415f850f7fa76b4d59bb309c0ffbfaf2e20352ec7f89601c7cb6
+  checksum: be0fae2df96567508163981d03fa39410785e63ccf54266b9bab788efb4b4fcce1cfec834509710fcae468ce9b3c758ec7aac9b8a10a0462d6e5fba650792288
   languageName: node
   linkType: hard
 
@@ -8440,7 +8440,7 @@ __metadata:
   resolution: "user-management-1@workspace:packages/user-management-1"
   dependencies:
     "@goldstack/template-user-management": "npm:0.1.13"
-    "@goldstack/template-user-management-cli": "npm:0.1.13"
+    "@goldstack/template-user-management-cli": "npm:0.1.14"
     "@swc/core": "npm:^1.3.74"
     "@swc/jest": "npm:^0.2.27"
     "@types/jest": "npm:^29.0.1"
