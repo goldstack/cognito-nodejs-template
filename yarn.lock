@@ -1935,11 +1935,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-user-management-cli@npm:0.1.30":
-  version: 0.1.30
-  resolution: "@goldstack/template-user-management-cli@npm:0.1.30"
+"@goldstack/template-user-management-cli@npm:0.1.31":
+  version: 0.1.31
+  resolution: "@goldstack/template-user-management-cli@npm:0.1.31"
   dependencies:
-    "@goldstack/template-user-management": "npm:0.1.27"
+    "@goldstack/template-user-management": "npm:0.1.28"
     "@goldstack/utils-cli": "npm:0.3.10"
     "@goldstack/utils-docker": "npm:0.4.13"
     "@goldstack/utils-log": "npm:0.3.12"
@@ -1947,20 +1947,20 @@ __metadata:
     "@goldstack/utils-package-config": "npm:0.4.13"
     "@goldstack/utils-sh": "npm:0.5.12"
     "@goldstack/utils-template": "npm:0.4.13"
-    "@goldstack/utils-terraform": "npm:0.4.28"
-    "@goldstack/utils-terraform-aws": "npm:0.4.31"
+    "@goldstack/utils-terraform": "npm:0.4.29"
+    "@goldstack/utils-terraform-aws": "npm:0.4.32"
     source-map-support: "npm:^0.5.21"
     yargs: "npm:^17.5.1"
   bin:
     template: ./bin/template
     template-user-management: ./bin/template
-  checksum: 7adbafdde3e90cd703e35ca0bc325ef1dfb7c9ed7e329be8f572e3bc3126b9e1273b604cf7f4608cb9448d6818b4c8f7ebf522756753664a4f99a7c00ebfb1f9
+  checksum: e2de8d8ea545655510e8f4cc6a8b74dc27383d2c3c13051536a566eb6dda843c35846653ba38118274d73870c50a55d668daf5cad3b671ea2a1f6b9771c1c19f
   languageName: node
   linkType: hard
 
-"@goldstack/template-user-management@npm:0.1.27":
-  version: 0.1.27
-  resolution: "@goldstack/template-user-management@npm:0.1.27"
+"@goldstack/template-user-management@npm:0.1.28":
+  version: 0.1.28
+  resolution: "@goldstack/template-user-management@npm:0.1.28"
   dependencies:
     "@goldstack/infra": "npm:0.4.13"
     "@goldstack/infra-aws": "npm:0.4.22"
@@ -1968,10 +1968,10 @@ __metadata:
     "@goldstack/utils-package": "npm:0.4.13"
     "@goldstack/utils-package-config-embedded": "npm:0.5.14"
     "@goldstack/utils-template": "npm:0.4.13"
-    "@goldstack/utils-terraform": "npm:0.4.28"
+    "@goldstack/utils-terraform": "npm:0.4.29"
     aws-jwt-verify: "npm:^3.2.0"
     source-map-support: "npm:^0.5.21"
-  checksum: 73c71a7b7f8410c8c6059df27a6d95774003078d38616bb42c4d66ad49a45a4352732b524ab24423c370a021823a9683f0d930477e2fcbc6981d427d47a9b9d9
+  checksum: 77f7bb098e506693aa3146fdd763aa9835bf0c4266c61c6bf64d57670b4a61127b6374b9e937be80a22eaa8e89d53d484fc1c7ad7caeb3d58d97f57a3d6510b0
   languageName: node
   linkType: hard
 
@@ -2082,9 +2082,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-terraform-aws@npm:0.4.31":
-  version: 0.4.31
-  resolution: "@goldstack/utils-terraform-aws@npm:0.4.31"
+"@goldstack/utils-terraform-aws@npm:0.4.32":
+  version: 0.4.32
+  resolution: "@goldstack/utils-terraform-aws@npm:0.4.32"
   dependencies:
     "@aws-sdk/client-dynamodb": "npm:^3.645.0"
     "@aws-sdk/client-s3": "npm:3.620.0"
@@ -2095,14 +2095,14 @@ __metadata:
     "@goldstack/utils-log": "npm:0.3.12"
     "@goldstack/utils-package": "npm:0.4.13"
     "@goldstack/utils-sh": "npm:0.5.12"
-    "@goldstack/utils-terraform": "npm:0.4.28"
-  checksum: f0e1dbea841f6a9807f4b7eb15d3c77a1a5e98fb7722cb638502d3504283a1c3b6dce0a7faed3f5babb46b2596190eed2ff4b7a14a03b6a3563787ab26ae67df
+    "@goldstack/utils-terraform": "npm:0.4.29"
+  checksum: ea9a75e3e8c575f1e54e12d40633702aab3e7e187287a040e44b6e20c853cd4891a5804247c1a44bda693260269669ad247786b1b4b187f43c29f3b4323951dd
   languageName: node
   linkType: hard
 
-"@goldstack/utils-terraform@npm:0.4.28":
-  version: 0.4.28
-  resolution: "@goldstack/utils-terraform@npm:0.4.28"
+"@goldstack/utils-terraform@npm:0.4.29":
+  version: 0.4.29
+  resolution: "@goldstack/utils-terraform@npm:0.4.29"
   dependencies:
     "@goldstack/infra": "npm:0.4.13"
     "@goldstack/infra-aws": "npm:0.4.22"
@@ -2113,7 +2113,7 @@ __metadata:
     "@goldstack/utils-sh": "npm:0.5.12"
     json-stable-stringify: "npm:^1.0.1"
     yargs: "npm:^17.5.1"
-  checksum: 36a2c68eee3a52e28444d5840ecc748c7f5c74401a6fd6219fe6bee86405f0e59ae656ddd01ce1e169a2477697c8727680f9f7cb31eb4488318bff33ad14d9b5
+  checksum: ad05a5603df6e0b79d860e7b84cf5054c2b0b6f415598908c8dfb667aa4086fe8e2a33b4f2464bd7e3469fcec797b959340b1e6f5faeb53ba28a935a70f51cfc
   languageName: node
   linkType: hard
 
@@ -9342,8 +9342,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "user-management-1@workspace:packages/user-management-1"
   dependencies:
-    "@goldstack/template-user-management": "npm:0.1.27"
-    "@goldstack/template-user-management-cli": "npm:0.1.30"
+    "@goldstack/template-user-management": "npm:0.1.28"
+    "@goldstack/template-user-management-cli": "npm:0.1.31"
     "@swc/core": "npm:^1.3.74"
     "@swc/jest": "npm:^0.2.27"
     "@types/jest": "npm:^29.0.1"
