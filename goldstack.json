@@ -1,8 +1,8 @@
 {
   "$schema": "./schemas/package.schema.json",
-  "templateVersion": "0.1.0",
-  "template": "yarn-pnp-monorepo",
-  "name": "project-user-management",
   "configuration": {},
-  "deployments": []
+  "deployments": [],
+  "name": "project-user-management",
+  "template": "yarn-pnp-monorepo",
+  "templateVersion": "0.1.0"
 }
