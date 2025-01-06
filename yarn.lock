@@ -2476,11 +2476,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-user-management-cli@npm:0.1.44":
-  version: 0.1.44
-  resolution: "@goldstack/template-user-management-cli@npm:0.1.44"
+"@goldstack/template-user-management-cli@npm:0.1.45":
+  version: 0.1.45
+  resolution: "@goldstack/template-user-management-cli@npm:0.1.45"
   dependencies:
-    "@goldstack/template-user-management": "npm:0.1.41"
+    "@goldstack/template-user-management": "npm:0.1.42"
     "@goldstack/utils-cli": "npm:0.3.16"
     "@goldstack/utils-docker": "npm:0.4.23"
     "@goldstack/utils-log": "npm:0.3.18"
@@ -2495,13 +2495,13 @@ __metadata:
   bin:
     template: ./bin/template
     template-user-management: ./bin/template
-  checksum: 10/b0db158f194755036276f4caa064714a117f7eb5c2d4e5155964611b169bfc1cbcb80a0b20fb5a488058e6052a124d712e5e755c5682f7edea3970b248fc3b13
+  checksum: 10/c165c1daa66be172ef8d4285cb60ab10e15c0864a91a48750287b24973e52a4fc99dbeab14385aae45a6c6d349c30e610399200dc2a80d6e224965aa37f6d20e
   languageName: node
   linkType: hard
 
-"@goldstack/template-user-management@npm:0.1.41":
-  version: 0.1.41
-  resolution: "@goldstack/template-user-management@npm:0.1.41"
+"@goldstack/template-user-management@npm:0.1.42":
+  version: 0.1.42
+  resolution: "@goldstack/template-user-management@npm:0.1.42"
   dependencies:
     "@goldstack/infra": "npm:0.4.22"
     "@goldstack/infra-aws": "npm:0.4.32"
@@ -2512,7 +2512,7 @@ __metadata:
     "@goldstack/utils-terraform": "npm:0.4.42"
     aws-jwt-verify: "npm:^3.2.0"
     source-map-support: "npm:^0.5.21"
-  checksum: 10/175adc1647d5d3569b43c6acddd0252beab4d02c10f607b969e2565f93ad53b012203c7c8917c49bf6d4464cce47e58b786b9404991869ba99d016d7566bc9b9
+  checksum: 10/04a402fdca278311053fe40f16ec853d7d692f8b27a69ff7159af3f3713afa03a3820ef6b870e4f92ba65f37de4709e5c5e04cc47be84705852dd7e654e7d195
   languageName: node
   linkType: hard
 
@@ -10480,8 +10480,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "user-management-1@workspace:packages/user-management-1"
   dependencies:
-    "@goldstack/template-user-management": "npm:0.1.41"
-    "@goldstack/template-user-management-cli": "npm:0.1.44"
+    "@goldstack/template-user-management": "npm:0.1.42"
+    "@goldstack/template-user-management-cli": "npm:0.1.45"
     "@swc/core": "npm:^1.10.1"
     "@swc/jest": "npm:^0.2.37"
     "@types/jest": "npm:^29.5.14"

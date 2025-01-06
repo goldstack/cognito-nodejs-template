@@ -3037,10 +3037,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-user-management", [\
-      ["npm:0.1.41", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-user-management-npm-0.1.41-ae741dcb19-175adc1647.zip/node_modules/@goldstack/template-user-management/",\
+      ["npm:0.1.42", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-user-management-npm-0.1.42-9f63871830-04a402fdca.zip/node_modules/@goldstack/template-user-management/",\
         "packageDependencies": [\
-          ["@goldstack/template-user-management", "npm:0.1.41"],\
+          ["@goldstack/template-user-management", "npm:0.1.42"],\
           ["@goldstack/infra", "npm:0.4.22"],\
           ["@goldstack/infra-aws", "npm:0.4.32"],\
           ["@goldstack/utils-esbuild", "npm:0.5.12"],\
@@ -3055,11 +3055,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-user-management-cli", [\
-      ["npm:0.1.44", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-user-management-cli-npm-0.1.44-64f7ef2e48-b0db158f19.zip/node_modules/@goldstack/template-user-management-cli/",\
+      ["npm:0.1.45", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-user-management-cli-npm-0.1.45-3b14dc6ae3-c165c1daa6.zip/node_modules/@goldstack/template-user-management-cli/",\
         "packageDependencies": [\
-          ["@goldstack/template-user-management-cli", "npm:0.1.44"],\
-          ["@goldstack/template-user-management", "npm:0.1.41"],\
+          ["@goldstack/template-user-management-cli", "npm:0.1.45"],\
+          ["@goldstack/template-user-management", "npm:0.1.42"],\
           ["@goldstack/utils-cli", "npm:0.3.16"],\
           ["@goldstack/utils-docker", "npm:0.4.23"],\
           ["@goldstack/utils-log", "npm:0.3.18"],\
@@ -12016,8 +12016,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./packages/user-management-1/",\
         "packageDependencies": [\
           ["user-management-1", "workspace:packages/user-management-1"],\
-          ["@goldstack/template-user-management", "npm:0.1.41"],\
-          ["@goldstack/template-user-management-cli", "npm:0.1.44"],\
+          ["@goldstack/template-user-management", "npm:0.1.42"],\
+          ["@goldstack/template-user-management-cli", "npm:0.1.45"],\
           ["@swc/core", "virtual:de0ad6e5a0df672c746f7b54030e57fe8e27ae2b0b2ccedf4309fccb9c2581b2b2faeb8064585a719087e6d3a85e4645d6c3898e985f1966ca31645f2c77e160#npm:1.10.1"],\
           ["@swc/jest", "virtual:de0ad6e5a0df672c746f7b54030e57fe8e27ae2b0b2ccedf4309fccb9c2581b2b2faeb8064585a719087e6d3a85e4645d6c3898e985f1966ca31645f2c77e160#npm:0.2.37"],\
           ["@types/jest", "npm:29.5.14"],\
