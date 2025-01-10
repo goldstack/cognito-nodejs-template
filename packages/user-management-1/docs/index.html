@@ -515,6 +515,7 @@
     <span class="token keyword">await</span> cognito<span class="token punctuation">.</span><span class="token method function property-access">validate</span><span class="token punctuation">(</span>cookies<span class="token punctuation">.</span><span class="token property-access">goldstack_access_token</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token keyword">const</span> idToken <span class="token operator">=</span> <span class="token keyword">await</span> cognito<span class="token punctuation">.</span><span class="token method function property-access">validateIdToken</span><span class="token punctuation">(</span>cookies<span class="token punctuation">.</span><span class="token property-access">goldstack_id_token</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     message <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">Hello </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>idToken<span class="token punctuation">.</span><span class="token property-access">email</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">&#x3C;br></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+    userId <span class="token operator">=</span> idToken<span class="token punctuation">[</span><span class="token string">'custom:app_user_id'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </code></pre>
@@ -550,6 +551,21 @@
       rel="noopener noreferrer"
       >DynamoDB template</a
     >.
+  </p>
+  <p>
+    Note that while Cognito creates a unique ID for every user (attribute
+    <code class="inline">sub</code>) it is not recommended to use this ID in
+    your own data. Since, if you accidentally delete the Cognito user pool (Pro
+    tip: Don't do this!!!), you cannot restore this ID. Instead, use the custom
+    attribute created by the template:
+  </p>
+  <pre><code>custom:app_user_id
+</code></pre>
+  <p>
+    Store this id along with the users email address (and any other critical
+    information you collect through Cognito) in your own database. This will
+    protect you against using the Cognito User pool (though in that event your
+    users would need to set new passwords and also set up their 2FA again).
   </p>
 </div>
 <p></p>
