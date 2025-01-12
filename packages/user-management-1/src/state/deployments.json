@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "name": "prod",
+    "terraform": {
+      "endpoint": {
+        "sensitive": false,
+        "type": "string",
+        "value": "cognito-idp.us-west-2.amazonaws.com/us-west-2_DUxQKBbfQ"
+      },
+      "post_confirmation_lambda_function_name": {
+        "sensitive": false,
+        "type": "string",
+        "value": "integration-pool-1736661297636-post-confirmation"
+      },
+      "pre_sign_up_lambda_function_name": {
+        "sensitive": false,
+        "type": "string",
+        "value": "integration-pool-1736661297636-pre-sign-up"
+      },
+      "user_pool_client_id": {
+        "sensitive": false,
+        "type": "string",
+        "value": "5jjelsoahfujn7haequ5cgvldm"
+      },
+      "user_pool_id": {
+        "sensitive": false,
+        "type": "string",
+        "value": "us-west-2_DUxQKBbfQ"
+      }
+    }
+  }
+]

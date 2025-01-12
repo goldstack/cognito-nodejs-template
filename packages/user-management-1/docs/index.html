@@ -592,6 +592,19 @@
       </g></svg
   ></span>
 </h2>
+<p>
+  NOTE! Consider enabling <code class="inline">prevent_destroy</code> in
+  <code class="inline">main.tf</code>. Bad things happen if user pools are
+  destroyed!
+</p>
+<p>
+  For the same reason, the template by default uses
+  <code class="inline">ignore_changes</code> to ignore any changes to the
+  <code class="inline">schema</code> since existing attributes cannot be
+  changed. Thus it is probably best to make any modifications in the console, to
+  get the appropriate warnings when performing operations and to explicitly
+  destroy and create the pool if required.
+</p>
 <p></p>
 <div class="markdown-fragment">
   <p>
@@ -1177,6 +1190,88 @@
     <code class="inline">auth.examples.mydomain.com</code>, then this error will
     occur if there is no A record defined for
     <code class="inline">examples.mydomain.com</code>.
+  </p>
+  <h3 class="heading">
+    <span
+      id="error-updating-cognito-user-pool-cannot-modify-or-remove-schema-items-1"
+    ></span
+    ><a
+      href="#error-updating-cognito-user-pool-cannot-modify-or-remove-schema-items-1"
+      ><span
+        id="error-updating-cognito-user-pool-cannot-modify-or-remove-schema-items"
+      ></span
+      ><a
+        href="#error-updating-cognito-user-pool-cannot-modify-or-remove-schema-items"
+        class="relative"
+        >Error 'Updating Cognito User Pool: cannot modify or remove schema
+        items'</a
+      ><span class="permalink"
+        ><svg viewBox="0 0 16 16" width="16" height="16">
+          <g stroke-width="1" fill="#000000" stroke="#000000">
+            <path
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-miterlimit="10"
+              d="M8.995,7.005 L8.995,7.005c1.374,1.374,1.374,3.601,0,4.975l-1.99,1.99c-1.374,1.374-3.601,1.374-4.975,0l0,0c-1.374-1.374-1.374-3.601,0-4.975 l1.748-1.698"
+            ></path>
+            <path
+              fill="none"
+              stroke="#000000"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-miterlimit="10"
+              d="M7.005,8.995 L7.005,8.995c-1.374-1.374-1.374-3.601,0-4.975l1.99-1.99c1.374-1.374,3.601-1.374,4.975,0l0,0c1.374,1.374,1.374,3.601,0,4.975 l-1.748,1.698"
+            ></path>
+          </g></svg></span></a
+    ><span class="permalink"
+      ><svg viewBox="0 0 16 16" width="16" height="16">
+        <g stroke-width="1" fill="#000000" stroke="#000000">
+          <path
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-miterlimit="10"
+            d="M8.995,7.005 L8.995,7.005c1.374,1.374,1.374,3.601,0,4.975l-1.99,1.99c-1.374,1.374-3.601,1.374-4.975,0l0,0c-1.374-1.374-1.374-3.601,0-4.975 l1.748-1.698"
+          ></path>
+          <path
+            fill="none"
+            stroke="#000000"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-miterlimit="10"
+            d="M7.005,8.995 L7.005,8.995c-1.374-1.374-1.374-3.601,0-4.975l1.99-1.99c1.374-1.374,3.601-1.374,4.975,0l0,0c1.374,1.374,1.374,3.601,0,4.975 l-1.748,1.698"
+          ></path>
+        </g></svg
+    ></span>
+  </h3>
+  <p>
+    This error is issued by Terraform if trying to change an attribute for the
+    user pool (see
+    <a
+      href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool#schema"
+      class="absolute"
+      target="_blank"
+      rel="noopener noreferrer"
+      >cognito-user-pool</a
+    >
+    Terraform documentation).
+  </p>
+  <pre><code>Error: updating Cognito User Pool (us-west-xxx): cannot modify or remove schema items
+
+with aws_cognito_user_pool.pool,
+on main.tf line 1, in resource "aws_cognito_user_pool" "pool":
+1: resource "aws_cognito_user_pool" "pool" {
+
+</code></pre>
+  <p>
+    You can change the lifecycle configuration in
+    <code class="inline">main.tf</code> to ignore schema changes as well.
+  </p>
+  <p>
+    Otherwise you will have to delete and recreate the user pool but DO SO WITH
+    CAUTION since all your existing user data will be irrecoverably lost,
+    including the passwords your users have set.
   </p>
 </div>
 <p></p>
