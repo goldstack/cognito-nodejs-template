@@ -5,27 +5,27 @@
       "endpoint": {
         "sensitive": false,
         "type": "string",
-        "value": "cognito-idp.us-west-2.amazonaws.com/us-west-2_lzfsrvQtl"
+        "value": "cognito-idp.us-west-2.amazonaws.com/us-west-2_seCu19UnU"
       },
       "post_confirmation_lambda_function_name": {
         "sensitive": false,
         "type": "string",
-        "value": "integration-pool-1738709893571-post-confirmation"
+        "value": "integration-pool-1738727243015-post-confirmation"
       },
       "pre_sign_up_lambda_function_name": {
         "sensitive": false,
         "type": "string",
-        "value": "integration-pool-1738709893571-pre-sign-up"
+        "value": "integration-pool-1738727243015-pre-sign-up"
       },
       "user_pool_client_id": {
         "sensitive": false,
         "type": "string",
-        "value": "6nkg4e72h83e1277gsgcvs4qb"
+        "value": "4qu9sgesug4q18bbrsarg0krje"
       },
       "user_pool_id": {
         "sensitive": false,
         "type": "string",
-        "value": "us-west-2_lzfsrvQtl"
+        "value": "us-west-2_seCu19UnU"
       }
     }
   }
