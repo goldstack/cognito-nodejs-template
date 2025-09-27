@@ -2930,14 +2930,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-user-management-cli@npm:0.1.60":
-  version: 0.1.60
-  resolution: "@goldstack/template-user-management-cli@npm:0.1.60"
+"@goldstack/template-user-management-cli@npm:0.1.61":
+  version: 0.1.61
+  resolution: "@goldstack/template-user-management-cli@npm:0.1.61"
   dependencies:
     "@goldstack/infra": "npm:0.4.25"
     "@goldstack/infra-aws": "npm:0.4.38"
     "@goldstack/template-user-management": "npm:0.1.57"
-    "@goldstack/utils-aws-lambda": "npm:0.3.48"
+    "@goldstack/utils-aws-lambda": "npm:0.3.49"
     "@goldstack/utils-cli": "npm:0.3.19"
     "@goldstack/utils-docker": "npm:0.4.26"
     "@goldstack/utils-log": "npm:0.3.21"
@@ -2952,7 +2952,7 @@ __metadata:
   bin:
     template: ./bin/template
     template-user-management: ./bin/template
-  checksum: 10/3a37fd7c6c5bc2194942145133c4a33fd11d8df8299d4ff4af50137e323207590b0d83e395af449443a623fe8cf5e1c140f3240cf56d2999ad8dc7474bd1862f
+  checksum: 10/dc3b967c17962147200789f5580ec9088a1f361819958b34a5e8c94b7e7fa7521adf5a44fb9d0718705cf2a77c47e2e53b6e7f64ceb52ca8b82db95aef815576
   languageName: node
   linkType: hard
 
@@ -2986,9 +2986,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-aws-lambda@npm:0.3.48":
-  version: 0.3.48
-  resolution: "@goldstack/utils-aws-lambda@npm:0.3.48"
+"@goldstack/utils-aws-lambda@npm:0.3.49":
+  version: 0.3.49
+  resolution: "@goldstack/utils-aws-lambda@npm:0.3.49"
   dependencies:
     "@aws-sdk/types": "npm:^3.893.0"
     "@goldstack/infra-aws": "npm:0.4.38"
@@ -2998,8 +2998,8 @@ __metadata:
     "@yarnpkg/esbuild-plugin-pnp": "npm:^3.0.0-rc.15"
     archiver: "npm:^5.3.1"
     esbuild: "npm:^0.25.6"
-    esbuild-ssr-css-modules-plugin: "npm:0.1.19"
-  checksum: 10/acd71b6841506e3360ca0555c2c0b7726b042d877894540dc76ba4fd174ce3730f3e302c2f10d12541b1d035ec70c7b3eb7e99c8493c760ec816d36ac1b44606
+    esbuild-ssr-css-modules-plugin: "npm:0.1.20"
+  checksum: 10/1d4aff3678e52e9d46e81691e93249b60528b83e1fe0f8126625932bf6a8039e25702cf5f707289e8cb43aee350f49a2edd7bb8b78731627529f2b4097c4daa5
   languageName: node
   linkType: hard
 
@@ -6609,16 +6609,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild-ssr-css-modules-plugin@npm:0.1.19":
-  version: 0.1.19
-  resolution: "esbuild-ssr-css-modules-plugin@npm:0.1.19"
+"esbuild-ssr-css-modules-plugin@npm:0.1.20":
+  version: 0.1.20
+  resolution: "esbuild-ssr-css-modules-plugin@npm:0.1.20"
   dependencies:
-    node-css-require: "npm:0.4.17"
+    node-css-require: "npm:0.4.18"
     postcss-modules-sync: "npm:^1.0.0"
     sha256: "npm:^0.2.0"
   peerDependencies:
     esbuild: ^0.25.6
-  checksum: 10/c1c0c34685b72adc5fef097152ac97412303113477f2690f97f3ba1a85f03bd5975566523a6e974aac762c23435695c334d044c72899485a3a339f875dbc1c69
+  checksum: 10/a3d172fea02aa02c6b9a30e3cb1e38b28b247bd5cb72410527eb57a41d06db37a406323dc50a0ec45c60c5e1c63f749f920302bf6944e521e5c0e58b4da7630a
   languageName: node
   linkType: hard
 
@@ -8598,12 +8598,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.3.7":
-  version: 3.3.7
-  resolution: "nanoid@npm:3.3.7"
+"nanoid@npm:^3.3.11":
+  version: 3.3.11
+  resolution: "nanoid@npm:3.3.11"
   bin:
     nanoid: bin/nanoid.cjs
-  checksum: 10/ac1eb60f615b272bccb0e2b9cd933720dad30bf9708424f691b8113826bb91aca7e9d14ef5d9415a6ba15c266b37817256f58d8ce980c82b0ba3185352565679
+  checksum: 10/73b5afe5975a307aaa3c95dfe3334c52cdf9ae71518176895229b8d65ab0d1c0417dd081426134eb7571c055720428ea5d57c645138161e7d10df80815527c48
   languageName: node
   linkType: hard
 
@@ -8628,15 +8628,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-css-require@npm:0.4.17":
-  version: 0.4.17
-  resolution: "node-css-require@npm:0.4.17"
+"node-css-require@npm:0.4.18":
+  version: 0.4.18
+  resolution: "node-css-require@npm:0.4.18"
   dependencies:
     pirates: "npm:^4.0.5"
-    postcss: "npm:^8.4.21"
+    postcss: "npm:^8.5.6"
     postcss-modules: "npm:^5.0.0"
     postcss-modules-sync: "npm:^1.0.0"
-  checksum: 10/14fdd80dd96608dbb670ffcd14c32238579031313f70efebc0ff84abd821849ef3adc6735fac94b557f87deb02f8d22d306dd3d6db6d5d3e5503d495b4cc6f1b
+  checksum: 10/dfad740291e692eca5bceda03b7bfb0723ea70e1f05f992b907a0f68dc635591b8c92674c7436e6397205b58efd5bbc2681d03fa221e6008c7527581761cbe62
   languageName: node
   linkType: hard
 
@@ -9129,14 +9129,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.21":
-  version: 8.4.49
-  resolution: "postcss@npm:8.4.49"
+"postcss@npm:^8.5.6":
+  version: 8.5.6
+  resolution: "postcss@npm:8.5.6"
   dependencies:
-    nanoid: "npm:^3.3.7"
+    nanoid: "npm:^3.3.11"
     picocolors: "npm:^1.1.1"
     source-map-js: "npm:^1.2.1"
-  checksum: 10/28fe1005b1339870e0a5006375ba5ac1213fd69800f79e7db09c398e074421ba6e162898e94f64942fed554037fd292db3811d87835d25ab5ef7f3c9daacb6ca
+  checksum: 10/9e4fbe97574091e9736d0e82a591e29aa100a0bf60276a926308f8c57249698935f35c5d2f4e80de778d0cbb8dcffab4f383d85fd50c5649aca421c3df729b86
   languageName: node
   linkType: hard
 
@@ -10122,7 +10122,7 @@ __metadata:
   dependencies:
     "@aws-sdk/client-cognito-identity-provider": "npm:^3.896.0"
     "@goldstack/template-user-management": "npm:0.1.57"
-    "@goldstack/template-user-management-cli": "npm:0.1.60"
+    "@goldstack/template-user-management-cli": "npm:0.1.61"
     "@goldstack/utils-log": "npm:0.3.21"
     "@swc/core": "npm:^1.12.11"
     "@swc/jest": "npm:^0.2.39"
