@@ -3427,16 +3427,16 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-user-management", [\
-      ["npm:0.1.74", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-user-management-npm-0.1.74-6893ac039d-f0c260642b.zip/node_modules/@goldstack/template-user-management/",\
+      ["npm:0.1.75", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-user-management-npm-0.1.75-5aa06a0ea2-eaf1449f8b.zip/node_modules/@goldstack/template-user-management/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.35"],\
           ["@goldstack/infra-aws", "npm:0.4.53"],\
-          ["@goldstack/template-user-management", "npm:0.1.74"],\
+          ["@goldstack/template-user-management", "npm:0.1.75"],\
           ["@goldstack/utils-esbuild", "npm:0.5.22"],\
           ["@goldstack/utils-package", "npm:0.4.37"],\
           ["@goldstack/utils-package-config-embedded", "npm:0.5.38"],\
-          ["@goldstack/utils-template", "npm:0.4.35"],\
+          ["@goldstack/utils-template", "npm:0.4.36"],\
           ["@goldstack/utils-terraform", "npm:0.4.66"],\
           ["aws-jwt-verify", "npm:3.2.0"],\
           ["source-map-support", "npm:0.5.21"]\
@@ -3445,13 +3445,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-user-management-cli", [\
-      ["npm:0.1.80", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-user-management-cli-npm-0.1.80-22adadfa24-0564d1eb26.zip/node_modules/@goldstack/template-user-management-cli/",\
+      ["npm:0.1.81", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-user-management-cli-npm-0.1.81-641bd100dc-778b3502d0.zip/node_modules/@goldstack/template-user-management-cli/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.35"],\
           ["@goldstack/infra-aws", "npm:0.4.53"],\
-          ["@goldstack/template-user-management", "npm:0.1.74"],\
-          ["@goldstack/template-user-management-cli", "npm:0.1.80"],\
+          ["@goldstack/template-user-management", "npm:0.1.75"],\
+          ["@goldstack/template-user-management-cli", "npm:0.1.81"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.65"],\
           ["@goldstack/utils-cli", "npm:0.3.27"],\
           ["@goldstack/utils-docker", "npm:0.4.36"],\
@@ -3459,7 +3459,7 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-package", "npm:0.4.37"],\
           ["@goldstack/utils-package-config", "npm:0.4.37"],\
           ["@goldstack/utils-sh", "npm:0.5.34"],\
-          ["@goldstack/utils-template", "npm:0.4.35"],\
+          ["@goldstack/utils-template", "npm:0.4.36"],\
           ["@goldstack/utils-terraform", "npm:0.4.66"],\
           ["@goldstack/utils-terraform-aws", "npm:0.4.69"],\
           ["source-map-support", "npm:0.5.21"],\
@@ -3609,12 +3609,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-template", [\
-      ["npm:0.4.35", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-template-npm-0.4.35-2b31cd8518-239be29880.zip/node_modules/@goldstack/utils-template/",\
+      ["npm:0.4.36", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-template-npm-0.4.36-d001fc57b3-a8e84d5110.zip/node_modules/@goldstack/utils-template/",\
         "packageDependencies": [\
           ["@goldstack/utils-config", "npm:0.4.35"],\
           ["@goldstack/utils-sh", "npm:0.5.34"],\
-          ["@goldstack/utils-template", "npm:0.4.35"]\
+          ["@goldstack/utils-template", "npm:0.4.36"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -11484,8 +11484,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./packages/user-management-1/",\
         "packageDependencies": [\
           ["@aws-sdk/client-cognito-identity-provider", "npm:3.958.0"],\
-          ["@goldstack/template-user-management", "npm:0.1.74"],\
-          ["@goldstack/template-user-management-cli", "npm:0.1.80"],\
+          ["@goldstack/template-user-management", "npm:0.1.75"],\
+          ["@goldstack/template-user-management-cli", "npm:0.1.81"],\
           ["@goldstack/utils-log", "npm:0.3.29"],\
           ["@swc/core", "virtual:de0ad6e5a0df672c746f7b54030e57fe8e27ae2b0b2ccedf4309fccb9c2581b2b2faeb8064585a719087e6d3a85e4645d6c3898e985f1966ca31645f2c77e160#npm:1.15.8"],\
           ["@swc/jest", "virtual:de0ad6e5a0df672c746f7b54030e57fe8e27ae2b0b2ccedf4309fccb9c2581b2b2faeb8064585a719087e6d3a85e4645d6c3898e985f1966ca31645f2c77e160#npm:0.2.39"],\
