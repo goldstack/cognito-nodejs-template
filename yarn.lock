@@ -2756,9 +2756,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-user-management-cli@npm:0.1.87":
-  version: 0.1.87
-  resolution: "@goldstack/template-user-management-cli@npm:0.1.87"
+"@goldstack/template-user-management-cli@npm:0.1.88":
+  version: 0.1.88
+  resolution: "@goldstack/template-user-management-cli@npm:0.1.88"
   dependencies:
     "@goldstack/infra": "npm:0.4.39"
     "@goldstack/infra-aws": "npm:0.4.57"
@@ -2772,13 +2772,13 @@ __metadata:
     "@goldstack/utils-sh": "npm:0.5.38"
     "@goldstack/utils-template": "npm:0.4.40"
     "@goldstack/utils-terraform": "npm:0.4.71"
-    "@goldstack/utils-terraform-aws": "npm:0.4.74"
+    "@goldstack/utils-terraform-aws": "npm:0.4.75"
     source-map-support: "npm:^0.5.21"
     yargs: "npm:^17"
   bin:
     template: ./bin/template
     template-user-management: ./bin/template
-  checksum: 10/321cba400301d804c7dfc6a7c51a04a602a813a828fe037bec05c53d203085b47533c4fc5cced580fce645ddcb6edac745577fe75bc69e215d6da8550bb70301
+  checksum: 10/08e9da0a077bd023e65f8a81158baef9e9bd3bb7e4e84486e515e64b8d406f21f42e97ebb496c11424b2808913c93dd0b901c8b3863770b0e342b5e5aa6181b1
   languageName: node
   linkType: hard
 
@@ -2937,9 +2937,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-terraform-aws@npm:0.4.74":
-  version: 0.4.74
-  resolution: "@goldstack/utils-terraform-aws@npm:0.4.74"
+"@goldstack/utils-terraform-aws@npm:0.4.75":
+  version: 0.4.75
+  resolution: "@goldstack/utils-terraform-aws@npm:0.4.75"
   dependencies:
     "@aws-sdk/client-dynamodb": "npm:^3.958.0"
     "@aws-sdk/client-s3": "npm:^3.958.0"
@@ -2951,7 +2951,7 @@ __metadata:
     "@goldstack/utils-package": "npm:0.4.41"
     "@goldstack/utils-sh": "npm:0.5.38"
     "@goldstack/utils-terraform": "npm:0.4.71"
-  checksum: 10/54932dc9680d37afcb2470212d3806fc79e6e050cd49f33e3bca210bbac49706e810f5fc8e4bb5400f05093ea03511419836eb61b1f97854924dae9eac335f69
+  checksum: 10/429d380224d066ca9db790ef3af34f8a0f6c916e390307fa5b2f0f88f82498aa0bbc11af23db7b2e2e16e8f06187d1f7d85763e15ebb831d7d75886089bad153
   languageName: node
   linkType: hard
 
@@ -10029,7 +10029,7 @@ __metadata:
   dependencies:
     "@aws-sdk/client-cognito-identity-provider": "npm:^3.958.0"
     "@goldstack/template-user-management": "npm:0.1.80"
-    "@goldstack/template-user-management-cli": "npm:0.1.87"
+    "@goldstack/template-user-management-cli": "npm:0.1.88"
     "@goldstack/utils-log": "npm:0.3.33"
     "@swc/core": "npm:^1.15.8"
     "@swc/jest": "npm:^0.2.39"
