@@ -1945,13 +1945,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-user-management-cli@npm:0.1.90":
-  version: 0.1.90
-  resolution: "@goldstack/template-user-management-cli@npm:0.1.90"
+"@goldstack/template-user-management-cli@npm:0.1.91":
+  version: 0.1.91
+  resolution: "@goldstack/template-user-management-cli@npm:0.1.91"
   dependencies:
     "@goldstack/infra": "npm:0.4.39"
     "@goldstack/infra-aws": "npm:0.4.59"
-    "@goldstack/template-user-management": "npm:0.1.82"
+    "@goldstack/template-user-management": "npm:0.1.83"
     "@goldstack/utils-aws-lambda": "npm:0.3.72"
     "@goldstack/utils-cli": "npm:0.3.31"
     "@goldstack/utils-docker": "npm:0.4.40"
@@ -1967,13 +1967,13 @@ __metadata:
   bin:
     template: ./bin/template
     template-user-management: ./bin/template
-  checksum: 10/85878905ee1012e8aee67edfa53901ad9e808ec033c7e95c99965485b841a5e67e59667c734eaccf14f04ff93940fefc2a0e1d9790780abc142eba4d4847b5a4
+  checksum: 10/5b3a7a7e18c83a244d39d660f005007da826be40770e979a03744355d3bf95cb585987dee312d2e03ceeff93e1cf8097d4fb2a2f06b61a6546fbd05c95d52114
   languageName: node
   linkType: hard
 
-"@goldstack/template-user-management@npm:0.1.82":
-  version: 0.1.82
-  resolution: "@goldstack/template-user-management@npm:0.1.82"
+"@goldstack/template-user-management@npm:0.1.83":
+  version: 0.1.83
+  resolution: "@goldstack/template-user-management@npm:0.1.83"
   dependencies:
     "@goldstack/infra": "npm:0.4.39"
     "@goldstack/infra-aws": "npm:0.4.59"
@@ -1984,7 +1984,7 @@ __metadata:
     "@goldstack/utils-terraform": "npm:0.4.73"
     aws-jwt-verify: "npm:^3.2.0"
     source-map-support: "npm:^0.5.21"
-  checksum: 10/6f2907a542044be2fdd048de7385cd2870cba168effe712e6a5b62678f08c12161669e00cad70d08e068155f1bd8446e42fb4352ed268cd87033c5f7950bea95
+  checksum: 10/c4b831951cce085149362b8e50f71ed18e0b7129169128e80e8a0761b476b361cc5a38abc5b61a056d84a74b5038757132ce59fb5e1706ef8cbe0523df0e9dd0
   languageName: node
   linkType: hard
 
@@ -8396,8 +8396,8 @@ __metadata:
   resolution: "user-management-1@workspace:packages/user-management-1"
   dependencies:
     "@aws-sdk/client-cognito-identity-provider": "npm:^3.1004.0"
-    "@goldstack/template-user-management": "npm:0.1.82"
-    "@goldstack/template-user-management-cli": "npm:0.1.90"
+    "@goldstack/template-user-management": "npm:0.1.83"
+    "@goldstack/template-user-management-cli": "npm:0.1.91"
     "@goldstack/utils-log": "npm:0.3.33"
     "@swc/core": "npm:^1.15.8"
     "@swc/jest": "npm:^0.2.39"
