@@ -10,14 +10,14 @@
       "awsUser": "goldstack-dev",
       "awsRegion": "us-west-2",
       "configuration": {
-        "cognitoDomain": "auth-integration-1774914967836.dev.goldstack.party",
-        "userPoolName": "integration-pool-1774914967836",
+        "cognitoDomain": "auth-integration-1774926720623.dev.goldstack.party",
+        "userPoolName": "integration-pool-1774926720623",
         "hostedZoneDomain": "dev.goldstack.party",
         "cookieDomain": ".dev.goldstack.party",
         "cookieSameSite": "None",
         "callbackUrl": "https://ssr.examples.templates.dev.goldstack.party"
       },
-      "tfStateKey": "user-management-1-prod-4fe220182accdd3bba69.tfstate"
+      "tfStateKey": "user-management-1-prod-50d71533c691d706b5b1.tfstate"
     }
   ]
 }
