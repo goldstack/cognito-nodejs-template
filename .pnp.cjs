@@ -2542,12 +2542,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-user-management", [\
-      ["npm:0.1.88", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-user-management-npm-0.1.88-5962fcf4a1-a94d3715b8.zip/node_modules/@goldstack/template-user-management/",\
+      ["npm:0.1.89", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-user-management-npm-0.1.89-966e5f19ff-70dae18dea.zip/node_modules/@goldstack/template-user-management/",\
         "packageDependencies": [\
+          ["@aws-sdk/client-cognito-identity-provider", "npm:3.1004.0"],\
           ["@goldstack/infra", "npm:0.4.40"],\
           ["@goldstack/infra-aws", "npm:0.4.61"],\
-          ["@goldstack/template-user-management", "npm:0.1.88"],\
+          ["@goldstack/template-user-management", "npm:0.1.89"],\
           ["@goldstack/utils-esbuild", "npm:0.5.26"],\
           ["@goldstack/utils-package", "npm:0.4.42"],\
           ["@goldstack/utils-package-config-embedded", "npm:0.5.43"],\
@@ -2560,13 +2561,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-user-management-cli", [\
-      ["npm:0.1.96", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-user-management-cli-npm-0.1.96-3c07fc12f1-da9944e352.zip/node_modules/@goldstack/template-user-management-cli/",\
+      ["npm:0.1.97", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-user-management-cli-npm-0.1.97-b856e06421-64ffff7d37.zip/node_modules/@goldstack/template-user-management-cli/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.40"],\
           ["@goldstack/infra-aws", "npm:0.4.61"],\
-          ["@goldstack/template-user-management", "npm:0.1.88"],\
-          ["@goldstack/template-user-management-cli", "npm:0.1.96"],\
+          ["@goldstack/template-user-management", "npm:0.1.89"],\
+          ["@goldstack/template-user-management-cli", "npm:0.1.97"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.74"],\
           ["@goldstack/utils-cli", "npm:0.3.31"],\
           ["@goldstack/utils-docker", "npm:0.4.40"],\
@@ -9855,8 +9856,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./packages/user-management-1/",\
         "packageDependencies": [\
           ["@aws-sdk/client-cognito-identity-provider", "npm:3.1004.0"],\
-          ["@goldstack/template-user-management", "npm:0.1.88"],\
-          ["@goldstack/template-user-management-cli", "npm:0.1.96"],\
+          ["@goldstack/template-user-management", "npm:0.1.89"],\
+          ["@goldstack/template-user-management-cli", "npm:0.1.97"],\
           ["@goldstack/utils-log", "npm:0.3.33"],\
           ["@swc/core", "virtual:de0ad6e5a0df672c746f7b54030e57fe8e27ae2b0b2ccedf4309fccb9c2581b2b2faeb8064585a719087e6d3a85e4645d6c3898e985f1966ca31645f2c77e160#npm:1.15.8"],\
           ["@swc/jest", "virtual:de0ad6e5a0df672c746f7b54030e57fe8e27ae2b0b2ccedf4309fccb9c2581b2b2faeb8064585a719087e6d3a85e4645d6c3898e985f1966ca31645f2c77e160#npm:0.2.39"],\
