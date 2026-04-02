@@ -2561,13 +2561,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-user-management-cli", [\
-      ["npm:0.1.98", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-user-management-cli-npm-0.1.98-88ab69b30c-57772d8af1.zip/node_modules/@goldstack/template-user-management-cli/",\
+      ["npm:0.1.99", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-user-management-cli-npm-0.1.99-e5ad52ad36-28449c27fa.zip/node_modules/@goldstack/template-user-management-cli/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.40"],\
           ["@goldstack/infra-aws", "npm:0.4.61"],\
           ["@goldstack/template-user-management", "npm:0.1.90"],\
-          ["@goldstack/template-user-management-cli", "npm:0.1.98"],\
+          ["@goldstack/template-user-management-cli", "npm:0.1.99"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.74"],\
           ["@goldstack/utils-cli", "npm:0.3.31"],\
           ["@goldstack/utils-docker", "npm:0.4.40"],\
@@ -2577,7 +2577,7 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-sh", "npm:0.5.38"],\
           ["@goldstack/utils-template", "npm:0.4.41"],\
           ["@goldstack/utils-terraform", "npm:0.4.77"],\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.81"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.82"],\
           ["source-map-support", "npm:0.5.21"],\
           ["yargs", "npm:17.7.2"]\
         ],\
@@ -2755,8 +2755,8 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-terraform-aws", [\
-      ["npm:0.4.81", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.81-ef149c4acf-a21d334b26.zip/node_modules/@goldstack/utils-terraform-aws/",\
+      ["npm:0.4.82", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.82-b58ed4a232-4270d99464.zip/node_modules/@goldstack/utils-terraform-aws/",\
         "packageDependencies": [\
           ["@aws-sdk/client-dynamodb", "npm:3.1004.0"],\
           ["@aws-sdk/client-s3", "npm:3.1004.0"],\
@@ -2768,7 +2768,7 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-package", "npm:0.4.42"],\
           ["@goldstack/utils-sh", "npm:0.5.38"],\
           ["@goldstack/utils-terraform", "npm:0.4.77"],\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.81"]\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.82"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -9857,7 +9857,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@aws-sdk/client-cognito-identity-provider", "npm:3.1004.0"],\
           ["@goldstack/template-user-management", "npm:0.1.90"],\
-          ["@goldstack/template-user-management-cli", "npm:0.1.98"],\
+          ["@goldstack/template-user-management-cli", "npm:0.1.99"],\
           ["@goldstack/utils-log", "npm:0.3.33"],\
           ["@swc/core", "virtual:de0ad6e5a0df672c746f7b54030e57fe8e27ae2b0b2ccedf4309fccb9c2581b2b2faeb8064585a719087e6d3a85e4645d6c3898e985f1966ca31645f2c77e160#npm:1.15.8"],\
           ["@swc/jest", "virtual:de0ad6e5a0df672c746f7b54030e57fe8e27ae2b0b2ccedf4309fccb9c2581b2b2faeb8064585a719087e6d3a85e4645d6c3898e985f1966ca31645f2c77e160#npm:0.2.39"],\
