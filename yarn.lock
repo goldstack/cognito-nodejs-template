@@ -1945,13 +1945,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-user-management-cli@npm:0.1.104":
-  version: 0.1.104
-  resolution: "@goldstack/template-user-management-cli@npm:0.1.104"
+"@goldstack/template-user-management-cli@npm:0.1.105":
+  version: 0.1.105
+  resolution: "@goldstack/template-user-management-cli@npm:0.1.105"
   dependencies:
     "@goldstack/infra": "npm:0.4.41"
     "@goldstack/infra-aws": "npm:0.4.65"
-    "@goldstack/template-user-management": "npm:0.1.95"
+    "@goldstack/template-user-management": "npm:0.2.1"
     "@goldstack/utils-aws-lambda": "npm:0.3.78"
     "@goldstack/utils-cli": "npm:0.3.32"
     "@goldstack/utils-docker": "npm:0.4.41"
@@ -1967,13 +1967,13 @@ __metadata:
   bin:
     template: ./bin/template
     template-user-management: ./bin/template
-  checksum: 10/6648a690ddded0268970effc6e890a117604e86fb2cc5385f47b3c7adb4c6bdb2aa857bafa4e379e5137e069e5421ba158914c0072fb38cd1711c6bd78c1ecaf
+  checksum: 10/d6756c6835bacd2a9608e1e1198336288681a8d6949935f746ab08eca10cf2c92f90890773bff2873c08a849fa2abea0d1a8f157be28b4ba3a6b2f147e2d9c6e
   languageName: node
   linkType: hard
 
-"@goldstack/template-user-management@npm:0.1.95":
-  version: 0.1.95
-  resolution: "@goldstack/template-user-management@npm:0.1.95"
+"@goldstack/template-user-management@npm:0.2.1":
+  version: 0.2.1
+  resolution: "@goldstack/template-user-management@npm:0.2.1"
   dependencies:
     "@aws-sdk/client-cognito-identity-provider": "npm:^3.1004.0"
     "@goldstack/infra": "npm:0.4.41"
@@ -1985,7 +1985,7 @@ __metadata:
     "@goldstack/utils-terraform": "npm:0.4.82"
     aws-jwt-verify: "npm:^3.2.0"
     source-map-support: "npm:^0.5.21"
-  checksum: 10/8cc8bce5cd405a03237bd9c2b895924935ecdf4e80746a269bf4be353d45f975da0149e5e27506d2e5482e28b05137397678a2558e6316ee11a4771ba8cd7f33
+  checksum: 10/6d46fd25c3a8883e50e992b75222e76d07663b1bf2e30709945634b48d2cf1b19616433c6fe7f9b8e29f4c77b4ca5d65ebcbd1416c4572d4588fc8f29fefc60a
   languageName: node
   linkType: hard
 
@@ -8398,8 +8398,8 @@ __metadata:
   resolution: "user-management-1@workspace:packages/user-management-1"
   dependencies:
     "@aws-sdk/client-cognito-identity-provider": "npm:^3.1004.0"
-    "@goldstack/template-user-management": "npm:0.1.95"
-    "@goldstack/template-user-management-cli": "npm:0.1.104"
+    "@goldstack/template-user-management": "npm:0.2.1"
+    "@goldstack/template-user-management-cli": "npm:0.1.105"
     "@goldstack/utils-log": "npm:0.3.34"
     "@swc/core": "npm:^1.15.8"
     "@swc/jest": "npm:^0.2.39"
