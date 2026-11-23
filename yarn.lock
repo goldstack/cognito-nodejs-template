@@ -1324,13 +1324,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-user-management-cli@npm:0.1.127":
-  version: 0.1.127
-  resolution: "@goldstack/template-user-management-cli@npm:0.1.127"
+"@goldstack/template-user-management-cli@npm:0.1.128":
+  version: 0.1.128
+  resolution: "@goldstack/template-user-management-cli@npm:0.1.128"
   dependencies:
     "@goldstack/infra": "npm:0.4.52"
     "@goldstack/infra-aws": "npm:0.4.81"
-    "@goldstack/template-user-management": "npm:0.2.21"
+    "@goldstack/template-user-management": "npm:0.2.22"
     "@goldstack/utils-aws-lambda": "npm:0.3.96"
     "@goldstack/utils-cli": "npm:0.3.40"
     "@goldstack/utils-docker": "npm:0.4.52"
@@ -1339,20 +1339,20 @@ __metadata:
     "@goldstack/utils-package-config": "npm:0.4.54"
     "@goldstack/utils-sh": "npm:0.5.50"
     "@goldstack/utils-template": "npm:0.4.53"
-    "@goldstack/utils-terraform": "npm:0.4.101"
-    "@goldstack/utils-terraform-aws": "npm:0.4.106"
+    "@goldstack/utils-terraform": "npm:0.4.102"
+    "@goldstack/utils-terraform-aws": "npm:0.4.107"
     source-map-support: "npm:^0.5.21"
     yargs: "npm:^17"
   bin:
     template: ./bin/template
     template-user-management: ./bin/template
-  checksum: 10/2782a18931db489c091f55f556b4c83af993929b3d3cadf620937a28af39a580f7baa60274fc0ce1a42f90f0b3619b650229563cf51d0a1aab58d63ca5e5685f
+  checksum: 10/fff37a2be207247e35e8197c0496a5ec126efd102e6b4d6320d058e5acb39c7149f1cd0035f7970da2a7eaa89d5fc035e01f8b305b362ed97ca608ba9b16f25e
   languageName: node
   linkType: hard
 
-"@goldstack/template-user-management@npm:0.2.21":
-  version: 0.2.21
-  resolution: "@goldstack/template-user-management@npm:0.2.21"
+"@goldstack/template-user-management@npm:0.2.22":
+  version: 0.2.22
+  resolution: "@goldstack/template-user-management@npm:0.2.22"
   dependencies:
     "@aws-sdk/client-cognito-identity-provider": "npm:^3.1164.0"
     "@goldstack/infra": "npm:0.4.52"
@@ -1361,10 +1361,10 @@ __metadata:
     "@goldstack/utils-package": "npm:0.4.54"
     "@goldstack/utils-package-config-embedded": "npm:0.5.55"
     "@goldstack/utils-template": "npm:0.4.53"
-    "@goldstack/utils-terraform": "npm:0.4.101"
+    "@goldstack/utils-terraform": "npm:0.4.102"
     aws-jwt-verify: "npm:^3.2.0"
     source-map-support: "npm:^0.5.21"
-  checksum: 10/b545f10505af66e9ff57ffafc287fb8c3e05e2477564bf37052baec253bb385cbac2808b35e04a468c13d700aec9fd56bf676caeaaac1c927f275fbb19035dc0
+  checksum: 10/51e6ba301c6414ee894bb23c5bfad327ce1193ad7f8b4056ee6af86e0acae1ce30a5e29d3689727486b11ddb79c20a01875922a1cf6e5b562be9bd813ec39610
   languageName: node
   linkType: hard
 
@@ -1507,9 +1507,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-terraform-aws@npm:0.4.106":
-  version: 0.4.106
-  resolution: "@goldstack/utils-terraform-aws@npm:0.4.106"
+"@goldstack/utils-terraform-aws@npm:0.4.107":
+  version: 0.4.107
+  resolution: "@goldstack/utils-terraform-aws@npm:0.4.107"
   dependencies:
     "@aws-sdk/client-dynamodb": "npm:^3.1164.0"
     "@aws-sdk/client-s3": "npm:^3.1164.0"
@@ -1520,14 +1520,14 @@ __metadata:
     "@goldstack/utils-log": "npm:0.3.43"
     "@goldstack/utils-package": "npm:0.4.54"
     "@goldstack/utils-sh": "npm:0.5.50"
-    "@goldstack/utils-terraform": "npm:0.4.101"
-  checksum: 10/e4c3dd5c43662b270fda3ed3ac026a12474882a6d84693c70d9e96a77a9154e84024c4cdfb2142628cf9405f688237efb13bf8964beac1cbf481662a4e76b27d
+    "@goldstack/utils-terraform": "npm:0.4.102"
+  checksum: 10/baa674f03daf3dfca17d522c6180df6ca617ea23ed41b3e322f31ed109c3f6fb1c78c40248a088e1d0d2baf1a7cbfb9aeccaeae3dbb15e283d021745a083cc3d
   languageName: node
   linkType: hard
 
-"@goldstack/utils-terraform@npm:0.4.101":
-  version: 0.4.101
-  resolution: "@goldstack/utils-terraform@npm:0.4.101"
+"@goldstack/utils-terraform@npm:0.4.102":
+  version: 0.4.102
+  resolution: "@goldstack/utils-terraform@npm:0.4.102"
   dependencies:
     "@goldstack/infra": "npm:0.4.52"
     "@goldstack/infra-aws": "npm:0.4.81"
@@ -1539,7 +1539,7 @@ __metadata:
     dotenv: "npm:^17.3.1"
     json-stable-stringify: "npm:^1.0.1"
     yargs: "npm:^17"
-  checksum: 10/c47983bdd5682a02433ea3e89a290519044ce9a9b901d0248805be6090cc028974cf5c1adde5865bd1f4aedbeadb89682c91c71acc431863e0c6e53469d88349
+  checksum: 10/c9ff399fc803fc468f1dde92da635f563dc5be1d9e54f8d4109bdead008a537098550836a46001f7d87b75e4635782207550833971a70ba1f1d1c72c7a6a9039
   languageName: node
   linkType: hard
 
@@ -7513,8 +7513,8 @@ __metadata:
   resolution: "user-management-1@workspace:packages/user-management-1"
   dependencies:
     "@aws-sdk/client-cognito-identity-provider": "npm:^3.1164.0"
-    "@goldstack/template-user-management": "npm:0.2.21"
-    "@goldstack/template-user-management-cli": "npm:0.1.127"
+    "@goldstack/template-user-management": "npm:0.2.22"
+    "@goldstack/template-user-management-cli": "npm:0.1.128"
     "@goldstack/utils-log": "npm:0.3.43"
     "@swc/core": "npm:^1.16.13"
     "@swc/jest": "npm:^0.2.39"
